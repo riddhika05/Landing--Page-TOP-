@@ -1,7 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: "Roboto " ,sans-serif;
 }
 .one{
  background-color: #1F2937;
@@ -11,13 +11,15 @@ body{
     display: flex;
     color: white;
     justify-content: space-between;
-    padding: 16px;
+    margin-bottom:100px;
     align-items: center;
+   
+   
 }
 .logo
 {
-    font-family:"Roboto" sans-serif  ;
-    font-size: x-large ;
+   
+    font-size: large ;
     font-weight: bold;
     
 }
@@ -25,5 +27,43 @@ ul{
   list-style-type: none;
   display: flex;
   gap:16px;
+  font-size: small;
     
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.text
+{
+    color: white; 
+    font-size: small;
+    max-width: 320px;
+  
+}
+ #heading
+{
+    font-size:xx-large ;
+    font-weight: bolder;
+}
+.outer
+{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: 0 auto;
+}
+ .signup
+{
+  padding: 4px 8px;
+  color: white;
+  background-color:#3882F6;
+  border-radius: 8px;
+  width: 100px;
+}
+.content{
+    margin-top:8px ;
+    margin-bottom: 16px;
 }
