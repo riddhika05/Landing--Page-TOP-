@@ -2,8 +2,7 @@ body{
     display:flex;
     flex-direction: column;
     font-family: "Roboto " ,sans-serif;
-   
-    
+    overflow: auto;    
 }
 .one,.five{
  background-color: #1F2937;
