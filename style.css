@@ -5,7 +5,7 @@ body{
    
     
 }
-.one{
+.one,.five{
  background-color: #1F2937;
  padding-bottom:60px;
 }
@@ -169,4 +169,11 @@ ul{
   font-weight: 700;
   border:2px solid white;
  
+}
+.copy
+{
+    font-size: 25px;
+    color: white;
+    margin-top:50px;
+    text-align: center;
 }
