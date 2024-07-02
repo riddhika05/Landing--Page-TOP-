@@ -5,6 +5,7 @@ body{
 }
 .one{
  background-color: #1F2937;
+ padding-bottom:60px;
 }
 .header
 {
@@ -51,6 +52,7 @@ ul{
     font-size:48px ;
     font-weight: bolder;
     color: #F9FAF8;
+    
 }
 .outer
 {
@@ -71,4 +73,32 @@ ul{
 .content{
     margin-top:8px ;
     margin-bottom: 16px;
+}
+.main-text
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.photos
+{
+    display:flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.two
+{
+    padding: 60px;
+}
+.image
+{
+    border-radius: 8px;
+}
+.sub-text
+{
+    max-width: 150px;
+    margin-top: 10px;
+    text-align: center;
 }
