@@ -2,6 +2,8 @@ body{
     display:flex;
     flex-direction: column;
     font-family: "Roboto " ,sans-serif;
+   
+    
 }
 .one{
  background-color: #1F2937;
@@ -61,6 +63,7 @@ ul{
     flex-direction: column;
     flex:1;
     margin: 0 auto;
+   
 }
  .signup
 {
@@ -123,4 +126,15 @@ ul{
     color: #1F2937;
     margin-left:550px;
     
+}
+.box
+{
+    background-color:#3882F6;
+    width:1000px;
+    height:200px;
+    border-radius: 8px;
+}
+.four
+{
+    padding: 100px;
 }
