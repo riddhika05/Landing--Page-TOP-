@@ -19,15 +19,18 @@ body{
 .logo
 {
    
-    font-size: large ;
+    font-size: 24px ;
     font-weight: bold;
+    color: #F9FAF8;
     
 }
 ul{
   list-style-type: none;
   display: flex;
   gap:16px;
-  font-size: small;
+  font-size: 18px;
+  color: #e5e7eb;
+  
     
 }
 .content
@@ -37,15 +40,17 @@ ul{
 }
 .text
 {
-    color: white; 
-    font-size: small;
-    max-width: 320px;
+  
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 350px;
   
 }
  #heading
 {
-    font-size:xx-large ;
+    font-size:48px ;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 .outer
 {
